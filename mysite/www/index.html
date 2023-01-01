@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+            https://cordova.apache.org/docs/en/latest/
+        Some notes:
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/organizer.css">
+        <title>Hello World</title>
+        <link href="../images/favicon/favicon.ico" rel="icon">
+    </head>
+    <body>
+        <div class="app">
+            <div id="classAddParameters">
+                <h1>What class would you like to add?</h1>
+                <p>Class Name</p>
+                <input type="text" id="inputClassName" class="inputParameter">
+                <div class="clearLeft"></div>
+                <button class="parameterButton" onclick="submitClassParameters('classAddParameters')">Confirm</button>
+                <button class="parameterButton" onclick="cancelParameters('classAddParameters')">Cancel</button>
+            </div>
+            <div id="assignmentAddParameters">
+                <h1>What assignment would you like to add?</h1>
+                <p>Assignment Name</p>
+                <input type="text" id="inputAssignmentName" class="inputParameter">
+                <div class="clearLeft"></div>
+                <p>Due Date</p>
+                <input type="text" id="inputDueDateName" class="inputParameter">
+                <div class="clearLeft"></div>
+                <p>Done?</p>
+                <input type="checkbox" id="inputDone" class="inputParameter">
+                <div class="clearLeft"></div>
+                <button class="parameterButton" onclick="cancelParameters('assignmentAddParameters')">Cancel</button>
+                <button class="parameterButton" onclick="submitAssignmentParameters('assignmentAddParameters', false)">Confirm</button>
+            </div>
+            <div id="endOfWeek">
+                <h1>You had a Perfect week, Keep it up!!!</h1>
+                <h2>Week #6</h2>
+                <h3>100%</h3>
+                <p>You got all 7 assignments done!</p>
+                
+                
+            </div>
+            <div id="prevWeeksScores">
+
+            </div>
+            <div id="credits">
+                <h1>Credits</h1>
+                <p>Programming: Juniper Lasky<br>Submitted for DIG 210 in
+                Finger Lakes Community College for Partial Credit</p>
+                <a href="https://newmedia.csc.flcc.edu/"><img src="img/NMLogo.png" alt="New Media Logo"></a>
+                <button onclick="closeMenu('credits')">Back To Main Menu</button>
+            </div>
+            <div id="classes">
+                <!--<h1>Class Organizer</h1>-->
+                <!--
+			    <div class="class">
+                    <h2 class="className">Digital Media<button class="editClass">Edit</button></h2>
+                    <div id="assignments0">
+                        <div class="assignment">
+                            <h3 class="assignmentName assignmentInfo">Get App layout working</h3>
+                            <p class="dueDate assignmentInfo">11/23</p>
+                            <input type="checkbox" checked="false" class="isAssignmentCompleted assignmentInfo">
+                            <button class="editAssignment assignmentInfo">Edit</button>
+                        </div>
+                    </div>
+                    <button class="assignmentAdd" onclick="addAssignment(0)">Add Assignment</button>
+                </div>
+                <div id="addClassButtonHolder">
+                    <button class="classAdd" onclick="addClass()">Add Class</button> 
+                </div>-->
+            </div>
+		</div>
+        <script src="js/organizer.js"></script>
+    </body>
+</html>

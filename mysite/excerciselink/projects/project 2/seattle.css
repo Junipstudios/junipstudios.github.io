@@ -1,0 +1,238 @@
+body
+{
+    background-color: white;
+}
+/*nav styles*/
+nav ul
+{
+    list-style: none;
+    padding: 0%;
+    font-family: 'oswald', sans-serif;
+    font-size: 150%;
+}
+#home nav li
+{
+    width: 25%;
+    float: left;
+    line-height: 50px;
+    background-color: #0396A6;
+    text-align: center;
+}
+#uw nav li
+{
+    width: 25%;
+    float: left;
+    line-height: 50px;
+    background-color: #4b2e83;
+    text-align: center;
+}
+#sn nav li
+{
+    width: 25%;
+    float: left;
+    line-height: 50px;
+    background-color: black;
+    text-align: center;
+}
+#as nav li
+{
+    width: 25%;
+    float: left;
+    line-height: 50px;
+    background-color: #146EB4;
+    text-align: center;
+}
+nav a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+#home nav a:hover
+{
+    background-color: #68F205;
+}
+#uw nav a:hover
+{
+    background-color: #85754d;
+    color: #4b2e83;
+}
+#sn nav a:hover
+{
+    background-color: darkgray;
+    color: black;
+}
+#as nav a:hover
+{
+    background-color: #FF9900;
+    color: #146EB4;
+}
+#home .active
+{
+    background-color: white;
+    color: #4AD923;
+}
+#uw .active
+{
+    background-color:white;
+    color:#4b2e83;
+}
+#sn .active
+{
+    background-color:white;
+    color:black;
+}
+#as .active
+{
+    background-color:white;
+    color:#146EB4;
+}
+/*header styles*/
+#home header
+{
+    clear: both;
+    background-image: url(images/home/seattle-banner.jpg);
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+#uw header
+{
+    clear: both;
+    background-image: url(images/uw/uw-banner.jpg);
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+#sn header
+{
+    clear: both;
+    background-image: url(images/sn/sn-banner.jpg);
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+#as header
+{
+    clear: both;
+    background-image: url(images/as/as-banner.jpg);
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+#home header h1
+{
+    color: white;
+    font-family:serif;
+    font-size: 400%;
+    font-style: italic;
+    position: absolute;
+    left: 5%;
+}
+#uw header h1
+{
+    color:#4b2e83;
+    font-family:serif;
+    font-size: 400%;
+    font-style: italic;
+    position: absolute;
+    left: 5%;
+}
+#sn header h1
+{
+    color: white;
+    font-family:serif;
+    font-size: 400%;
+    font-style: italic;
+    position: absolute;
+    left: 5%;
+}
+#as header h1
+{
+    color: #FF9900;
+    font-family:serif;
+    font-size: 400%;
+    font-style: italic;
+    position: absolute;
+    left: 5%;
+}
+/*article styles*/
+h2
+{
+    font-family: 'oswald', sans-serif;
+}
+article
+{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+article img
+{
+    width: 75%;   
+}
+article p
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    font-family: 'oswald', sans-serif;
+}
+article h3
+{
+    font-family: 'oswald' sans-serif;
+}
+/*footer styles*/
+#home footer
+{
+    clear: both;
+    line-height: 50px;
+    background-color:#0084A1;
+    color: white;
+    font-family: 'oswald' sans-serif;
+    text-decoration: none;
+}
+#home footer a
+{
+    text-decoration: underline white;
+    color: white;
+}
+#uw footer
+{
+    clear: both;
+    line-height: 50px;
+    background-color: #4b2e83;
+    color: #e8e3d3;
+    font-family: 'oswald' sans-serif;
+
+}
+#uw footer a
+{
+    color: white;
+}
+#sn footer
+{
+    clear: both;
+    line-height: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'oswald' sans-serif;
+}
+#sn footer a
+{
+    text-decoration: underline white;
+    color: white;
+}
+#as footer
+{
+    clear: both;
+    line-height: 50px;
+    background-color: #146EB4;
+    color: white;
+    font-family: 'oswald' sans-serif;
+}
+#as footer a
+{
+    text-decoration: underline white;
+    color: white;
+}

@@ -1,0 +1,117 @@
+body
+{
+    background-color: #F0EEED;
+}
+nav ul
+{
+    list-style: none;
+    padding: 0%;
+    font-family: 'Festive', cursive;
+    font-size: 150%;
+}
+nav li
+{
+    width: 25%;
+    float: left;
+    line-height: 50px;
+    background-color: #83A4D2;
+    text-align: center;
+}
+nav a
+{
+    display: block;
+    text-decoration: none;
+    color: #F2CAB3;
+}
+nav a:hover
+{
+    background-color: #F44545;
+}
+.active
+{
+    background-color: #F0EEED;
+    color: #83A4D2;
+}
+#parishome header
+{
+    clear: both;
+    background-image: url(images/parishome.jpg);
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+#tower header
+{
+    clear: both;
+    background-image: url(images/eiffelbanner.jpg);
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+#arc header
+{
+    clear: both;
+    background-image: url(images/arc-at-night.jpg);
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+header h1
+{
+    color: white;
+    font-family:serif;
+    font-size: 400%;
+    font-style: italic;
+    position: absolute;
+    left: 5%;
+}
+#parishome article
+{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+#tower article
+{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#arc article
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+#louvre article
+{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#arc article img
+{
+    width: 50%;
+}
+article img
+{
+    width: 95%;
+}
+article p
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+}
+article h3
+{
+    font-family: 'Festive';
+}
+footer
+{
+    clear: both;
+    line-height: 50px;
+    background-color:#83A4D2;
+    color: white;
+    font-family: 'festive';
+}

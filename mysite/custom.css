@@ -1,0 +1,811 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*laptops and tablets*/
+	html
+{
+    height: 100%;
+}
+.projectsbutton
+{
+    border: solid;
+    border-radius: 5px;
+    border-color: #F7A8B8;
+    background: white;
+    text-align: center;
+	font-size: 2vw;		
+}
+.projectsPageDesc
+{
+	font-size: 1.75vw
+}
+#dropdownInd
+{
+	font-size: 75%;
+	text-align: bottom;
+}
+.shrinkimage
+{
+	height: 5%
+}
+.homebody .backgroundtint
+		{
+		background-image: url("images/homebackground.png");
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		bottom: 0px;
+		z-index: -100;
+		filter: blur(5px);
+		background-size: cover;
+		}
+.aboutbody .backgroundtint
+		{
+		background-image: url("images/homebackground.png");
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		bottom: 0px;
+		z-index: -100;
+		filter: blur(5px);
+		background-size: cover;
+		}
+.menubackground {
+	color: #FFFFFF;
+	text-shadow: 0px 0px;
+	background-color: #000000;
+	height: 32px;
+}
+/*@keyframes social {
+	from {
+		opacity: 0;
+	}
+	to
+	{
+		opacity: 1;
+	}
+}*/
+.footcopyright
+{
+    position: fixed;
+    background: white;
+    opacity: .5;
+    color: #55CDFC;
+    right: 10px;
+	bottom: 10px;
+	border-radius: 12px;
+	padding: 5px;
+}
+.menu
+{
+	display: none;
+	animation: social 2s;
+	position: absolute;
+	height: 0px;
+	padding-top: 0px;
+	z-index: 35;
+}
+/*.backgroundtint
+{
+	background-color:black;
+	z-index: -10;
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	bottom:0px;
+	opacity: .5;
+}
+*/
+.customdd .row .col-4
+{
+	width: 67px;
+}
+.customdd:hover .menu
+{display: block}
+
+	body
+
+		{
+    height: 100%;
+    font-family: pt-mono;
+    font-style: italic;
+    font-weight: 700;
+}
+	.bg-blue
+	{
+		background-color: #55CDFC;
+		color: black;
+		text-shadow: 1px 1px 1px #F7A8B8;
+	}
+		/*nav*/
+		nav
+		{
+			z-index: 100
+		}
+.navlinkcustom
+{
+	background-color: #F7A8B8;
+	text-shadow: 1px 1px 1px #55CDFC;
+	border-radius: 5px;
+}
+@keyframes navanim
+{
+	from
+	{
+	background-color: #F7A8B8;
+	text-shadow: 1px 1px 1px #55CDFC;
+	border-radius: 5px;
+	}
+	to
+	{
+	background-color: grey;
+	text-shadow: 1px 1px 1px black;
+	border-radius: 0px;
+	}
+}
+.navlinkcustom:hover
+{
+	animation: navanim 1s;
+	background-color: grey;
+	text-shadow: 1px 1px 1px black;
+	border-radius: 0px;
+}
+/*the nav redoing*/
+/*@keyframes navprojects{ from
+	{
+		background-color: #F7A8B8;
+			text-shadow: 1px 1px 1px #55CDFC;
+			border-radius: 5px;
+	}
+	to {
+		background-color: grey;
+			text-shadow: 1px 1px 1px black;
+		background-size: 200px auto;
+	}
+}
+		.nav-link.projectnav:hover
+		{
+	animation: navprojects 1s;
+	text-shadow: 1px 1px 1px black;
+	/*background-position: 72% 378%;
+	background-color: grey;
+		}*/
+/*-------------------------------------------------*/
+/*@keyframes navresume{ from
+	{
+		background-color: #F7A8B8;
+			text-shadow: 1px 1px 1px #55CDFC;
+			border-radius: 5px;
+	}
+	to {
+		background-image: url("images/20211122_165048.jpg");
+			text-shadow: 1px 1px 1px black;
+    background-position: 74% 449%;
+    background-size: 150px auto;
+	}
+}
+		.nav-link.resumenav:hover
+		{
+    animation: navresume 1s;
+    background-image: url("images/20211122_165048.jpg");
+    text-shadow: 1px 1px 1px black;
+    background-position: 74% 507%;
+    background-size: 150px auto;
+		}*/
+/*-------------------------------------------------*/
+/*@keyframes navabout{ from
+	{
+		background-color: #F7A8B8;
+			text-shadow: 1px 1px 1px #55CDFC;
+			border-radius: 5px;
+	}
+	to {
+		background-image: url("images/20210922_102803.jpg");
+			text-shadow: 1px 1px 1px black;
+   background-position: 100% 500%;
+    background-size: 200px auto;
+	}
+}
+		.nav-link.aboutnav:hover
+		{
+    animation: navabout 1s;
+    background-image: url("images/20210922_102803.jpg");
+    text-shadow: 1px 1px 1px black;
+    background-position: 42% 402%;
+    background-size: 200px auto;
+		}*/
+/*-------------------------------------------------*/
+
+	/*the nav redoing closed*/
+		.navbarcustom
+		{
+			position: fixed;
+			left: 50px;
+			top: 75px;
+			font-size: 25px;
+			width: 576px;
+		}
+		.logo
+		{
+			height: 70px;
+			position: fixed;
+			left: 70px;
+			z-index: 100;
+		}
+		.customtoggler
+		{
+			position: fixed;
+			left: 0px;
+			top: 75px;
+			height: 55px;
+			width: 5px;
+			border: none;
+		}
+.nm{
+    float: right;
+    width: 15%;
+    height: 100px;
+    color: grey;
+    text-align: center;
+}
+		.nm img
+{
+	width: 90%;
+}
+		/*end nav*/
+		/*body*/
+		
+			/*content*/
+			.pageindicator
+			{
+    font-size: 20px;
+    ;
+    color: #55CDFC;
+    top: 74px;
+    position: fixed;
+    text-shadow: 1px 1px 1px #F7A8B8;
+    width: 157px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 39%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    z-index: 22;
+    right: auto;
+			}
+#dropdownInd
+{
+	    text-shadow: 1px 1px 1px #55CDFC;
+		color: #F7A8B8;
+}
+			.content
+			{
+		position: relative;
+		top: 150px;
+		font-size: 25px;
+		padding: 10px;
+		border-radius: 5px;
+			}
+			.content h1
+			{
+				margin-top: 25px;
+				text-align: center
+			}
+			.content p
+			{
+		width: 50%;
+		display: block;
+		position: relative;
+		margin: 20px auto;
+			}
+			.stripe
+			{
+				height: 10px;
+				width:100%;
+				background-image: url("images/stripe.svg")
+			}
+			.customcarouselimg
+			{
+				height: 250px; display: block; position: relative; margin-left: auto; margin-right: auto;
+			}
+			.customcarouselcaption
+			{
+    margin: auto;
+			}
+			.signature
+			{
+				position: absolute;
+				font-size: 50px;
+				width: 200px;
+				right: 5px;
+				bottom: 0px;
+			}
+		article
+{
+    font-size: 17px
+}
+.picwithcaption {
+    border-style: solid;
+	border-color: #F7A8B8;
+	border-radius: 5px;
+    border-width: thick;
+    background-color: #55CDFC;
+}
+
+
+
+
+			/*end content*/
+		/*end body*/
+		/*footer*/
+		footer
+	{
+		background-color: white;
+		position: fixed;
+		bottom: 0px;
+		height: 50px;
+		width: 100%;
+	}
+	.spacer
+	{
+		height: 250px;
+	}
+		.foot
+	{
+		height: 100%;
+		margin: auto;
+		text-align: center;
+		text-shadow: 1px 1px 1px #55CDFC;
+	}
+		.footlink a
+	{
+		color: #55CDFC;
+		text-shadow: 1px 1px 1px black;
+		padding-left: 10px;
+	}
+.pronouns {
+    position: fixed;
+    top: 22px;
+    left: 293px;
+    font-size: 34px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;
+    z-index: 32;
+}
+.socialactive {
+    background: transparent;
+}
+.socialactive a {
+    color: black;
+}
+.socials .content-box img {
+    width: 28px;
+    height: auto;
+}
+.socials .row .content-box {
+    width: 254px;
+    margin-left: 158px;
+}
+.socials .content-box img {
+    width: 38px;
+    position: absolute;
+}
+.socials .content-box h6 {
+    margin-left: 40px;
+    font-size: 22px;
+    margin-top: 3px;
+}
+.socials .spacer {
+    height: 31px;
+}
+.resumepic {
+    width: 70%;
+}
+.resumeclick {
+    width: 14%;
+    position: absolute;
+    top: 5%;
+    right: 51%;
+}
+.resumesect {
+    width: 50%;
+}
+.allprojects .row {
+    margin-bottom: 35px;
+    height: 125px;
+    width: 472px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.allprojects .col-xl-6 h6 {
+    margin-bottom: auto;
+    display: block;
+    font-size: 24px;
+    margin-top: 24%;
+}
+.allprojects .col-xl-6 img {
+    height: 125px;
+    overflow-x: hidden;
+    width: 222px;
+}
+.recentproject {
+    float: none;
+    height: 156px;
+}
+.projectpreview {
+    height: 100%;
+    width: auto;
+
+}
+.projcoll.projectbox {
+    height: 79px;
+
+
+
+
+
+}
+
+.projectdesc {
+    float: right;
+    position: relative;
+    width: 51%;
+    padding-top: 7%;
+
+}
+.projectbox {
+    position: relative;
+    margin-bottom: 13px;
+}
+
+.projcoll .projectdesc {
+    padding-top: 12px;
+}
+.projcoll .projectpreview {
+    height: 100%;
+}
+.descbox p  {
+    font-size: 51%;
+    padding-left: 0px;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1199px)
+{
+	footer
+	{
+    position: relative;
+	height: auto;
+	}
+	.customcarouselcaption
+	{
+		height: 50px;
+		font-size: 15px;
+		padding-left: 30px;
+	}
+	.carousel-indicators
+	{
+    top: 78%;
+	}
+		.socials .row .content-box
+	{
+    margin-left: 14%;
+	}
+.allprojects {
+	top: -64px;
+	position: relative;
+	padding-top: 31px;
+}
+.row .col-xl-6 {
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+.allprojects h6 {
+	background-color: #FFFFFF;
+	width: 222px;
+	text-align: center;
+}
+.allprojects .col-xl-6 {
+	top: -109px;
+	padding-left: 130px;
+	padding-top: 0px;
+}
+.allprojects .row {
+	margin-top: 86px;
+	height: 161px;
+	padding-top: 4px;
+}
+.col-xl-4  {
+    width: 22%;
+}
+.descbox {
+    width: 100%;
+}
+.recentproject .projectdesc {
+    position: absolute;
+    right: 0px;
+    padding-right: 0px;
+    top: 0px;
+    width: 291px;
+}
+
+
+
+
+
+
+
+
+}
+@media screen and (min-width:992px){
+	.pageindicator
+	{display: none;}
+	.urgent
+	{
+    display: block;
+    top: 127px;
+    right: -32%;
+	}
+	.activecustom
+		{
+			background: transparent;
+		}
+}
+
+@media screen and (min-width:768px){
+	.content 
+	{
+		left: 12.5%;
+		width: 75%;
+	}
+	
+}
+/*tablet- styles*/
+@media screen and (max-width:991px){
+	.spacer
+	{
+		height: 175px;
+	}
+	.activecustom
+	{
+		position: relative;
+		background: white;
+		text-shadow: none; 
+	}
+	.customcarouselcaption
+	{
+		height: 75px;
+	}
+.recentproject .projectdesc {
+    width: 27%;
+    padding-top: 0px;
+}
+
+	.signature
+	{
+		width: 150px;
+	}
+		.socials .row .content-box
+	{
+    margin-left: 4%;
+	}
+.projectdesc {
+    font-size: 68%;
+    width: 32%;
+}
+
+
+}
+/*phone styles*/
+@media screen and (max-width:767px){
+	.content
+	{
+		width: 100%
+	}
+.resumeclick {
+    position: absolute;
+    top: 0px;
+    right: auto;
+    left: 11%;
+}
+.resumepic {
+    top: 13%;
+    position: absolute;
+    width: 34%;
+}
+.socials .row .content-box {
+	margin-bottom: 27px;
+}
+}
+	@keyframes navprojects
+	{from
+	{
+		background-color: #F7A8B8;
+			text-shadow: 1px 1px 1px #55CDFC;
+			border-radius: 5px;
+	}
+	to {
+		background-image: url("images/20211208_121811.jpg");
+			text-shadow: 1px 1px 1px black;
+		background-size: 500px auto;
+	}
+}
+		.nav-link.projectnav:hover
+		{
+	animation: navprojects 1s;
+	background-image: url("images/20211208_121811.jpg");
+	text-shadow: 1px 1px 1px black;
+	background-position: 72% 378%;
+	background-size: 500px auto;
+		}
+/*-------------------------------------------------*/
+@keyframes navsocial{ from
+	{
+		background-color: #F7A8B8;
+			text-shadow: 1px 1px 1px #55CDFC;
+			border-radius: 5px;
+	}
+	to {
+		background-image: url("images/20211122_165048.jpg");
+			text-shadow: 1px 1px 1px black;
+    background-position: 74% 449%;
+    background-size: 500px auto;
+	}
+}
+		.nav-link.socialnav:hover
+		{
+    animation: navsocial 1s;
+    background-image: url("images/20211122_165048.jpg");
+    text-shadow: 1px 1px 1px black;
+    background-position: 74% 507%;
+    background-size: 500px auto;
+		}
+/*-------------------------------------------------*/
+@keyframes navabout{ from
+	{
+		background-color: #F7A8B8;
+			text-shadow: 1px 1px 1px #55CDFC;
+			border-radius: 5px;
+	}
+	to {
+		background-image: url("images/20210922_102803.jpg");
+			text-shadow: 1px 1px 1px black;
+   background-position: 100% 500%;
+    background-size: 500px auto;
+	}
+}
+		.nav-link.aboutnav:hover
+		{
+    animation: navabout 1s;
+    background-image: url("images/20210922_102803.jpg");
+    text-shadow: 1px 1px 1px black;
+    background-position: 42% 25%;
+    background-size: 500px auto;
+		}
+
+
+@media screen and (min-width:1200px){
+	.customcarouselcaption
+	{
+		padding-right: 103px;
+	}
+.socialactive {
+    bottom: 37px;
+}
+	.socialurgent
+	{
+		display: none;
+	}
+.allprojects .col-xl-6 {
+    background-color: #FFFFFF;
+}
+}
+
+@media screen and (max-width:575px){
+.logo {
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 111px;
+}
+.pronouns {
+    top: 22px;
+    left: 112px;
+    font-size: 25px;
+}
+.pageindicator {
+    position: absolute;
+    top: 115px;
+    left: 43px;
+}
+.nm {
+    width: 83px;
+}
+.customcarouselcaption {
+    font-size: 13px;
+}
+.signature
+	{
+    width: 27%;
+	}
+.resumesect {
+    font-size: 11px;
+}
+.resumepic {
+    position: static;
+    width: 116px;
+}
+.resume .row {
+    width: 104%;
+}
+.resumeclick {
+    width: 37%;
+    position: absolute;
+    top: 16%;
+    left: 0%;
+}
+.allprojects img {
+	margin-left: -115px;
+}
+.topprojectdiv h6 {
+	margin-left: -118px;
+}
+.projectdesc {
+    width: 32%;
+    font-size: 41%;
+    margin-top: 0px;
+    height: 45%;
+    margin-right: 3px;
+    padding-top: 0px;
+}
+.recentproject .projectpreview {
+    height: 96px;
+    width: 178px;
+}
+.recentproject .projectdesc {
+    position: absolute;
+    right: 0px;
+    top: 16px;
+
+}
+
+.projectbox {
+    height: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

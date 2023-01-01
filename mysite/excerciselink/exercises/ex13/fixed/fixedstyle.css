@@ -1,0 +1,118 @@
+@charset "utf-8";
+#container {
+    font-family: averia-libre;
+    font-style: normal;
+    font-weight: 300;
+    background-color: #C1EBE7;
+    height: 1000px;
+    width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+nav {
+    background-color: #93DCA2;
+    height: 54px;
+    width: 100%;
+    position: relative;
+}
+header {
+	background-image: url(images/woodbackground.jpg);
+	width: 100%;
+	height: 688px;
+	clear: both;
+	position: relative;
+}
+nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li {
+	list-style-type: none;
+	float: left;
+	line-height: 54px;
+	text-align: center;
+	width: 20%;
+	background-color: #FFFFFF;
+}
+
+
+
+section {
+	height: 213px;
+	width: 100%;
+	position: relative;
+	background-color: white;
+}
+footer {
+	background-color: #33201d;
+	text-align: center;
+	position: relative;
+	height: 46px;
+	width: 100%;
+	clear: both;
+	color: #02FF00;
+}
+footer a {
+	color: #FF00B6;
+	text-decoration: none;
+}
+
+article {
+	float: left;
+}
+article:nth-of-type(1) {
+	width: 60%;
+}
+article:nth-of-type(2) {
+	width: 40%;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #626262;
+	display: block;
+}
+nav ul li a:hover  {
+	background-color: #FF0004;
+}
+.active  {
+	color: #360102;
+}
+#note1 {
+	position: absolute;
+	top: 25px;
+	left: 87px;
+}
+#note2 {
+	top: 26px;
+	left: 293px;
+	position: absolute;
+}
+#note3 {
+	position: absolute;
+	top: 27px;
+	right: 199px;
+}
+#note4 {
+	position: absolute;
+	right: 31px;
+	padding-right: 0px;
+	padding-top: 0px;
+	top: 25px;
+}
+#container header {
+}
+#notesrules {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+header h1 {
+	bottom: 0px;
+	left: 49px;
+	position: absolute;
+	text-align: center;
+	font-size: 55px;
+	color: #FFFFFF;
+	text-shadow: 6px 4px 14px #000000;
+}

@@ -1,0 +1,122 @@
+body
+{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: pink;
+	color: dimgray;
+	text-shadow: 1px 1px powderblue;
+	height: 100vh;
+	width: 100vw;
+}
+#endOfWeek
+{
+    height: 100vh;
+	width: 100vw;
+    display: none;
+}
+#credits
+{
+    height: 100vh;
+	width: 100vw;
+    display: none;
+}
+#confirmPage
+{
+    height: 100vh;
+	width: 100vw;
+    display: none;
+}
+.editButtons
+{
+    margin-bottom: 10px;
+}
+#classAddParameters
+{
+    height: 100vh;
+	width: 100vw;
+    display: none;
+}
+#prevWeeksScores
+{
+    height: 100vh;
+	width: 100vw;
+    display: none;
+}
+button
+{
+    background-color:dimgray;
+    color: white;
+    border: 1px;
+    border-color: black;
+    margin-right: 2%;
+    padding: 10px;
+    border-radius: 10px;
+}
+button:active
+{
+    background-color: darkgrey;
+}
+.endWeek
+{
+    margin-top: 40px;
+}
+#assignmentAddParameters
+{
+    height: 100vh;
+	width: 100vw;
+    display: none;
+}
+.assignmentInfo
+{
+	float: left;
+}
+.assignment
+{
+    clear: left;
+    margin-left: 5%;
+}
+.class
+{
+    clear: left;
+    /*margin-bottom: 75px;*/
+    /*background-color: blue;*/
+	height: auto;
+}
+.assignmentAdd
+{
+    margin-bottom: 20px;
+    float: left;
+    clear: left;
+    margin-left: 5%;
+}
+.classAdd
+{
+    float: left;
+    clear: left;
+}
+.editClass
+{
+    margin-left: 5%;
+}
+.Parameter
+{
+    clear: left;
+    float: left;
+}
+.parameterButton
+{
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.floatLeft
+{
+    float: left;
+}
+.clearLeft
+{
+    clear: left;
+}
+#addClassButtonHolder
+{
+    margin-top: 10px;
+}
