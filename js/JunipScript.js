@@ -8,6 +8,9 @@ const activeSelectionDDClasses = "dropdown-item activecustom text-white"
 const inactiveSelectionNavClasses = "nav-link navlinkcustom text-white"
 const activeSelectionNavClasses = "nav-link activecustom text-white"
 
+document.getElementById("footerText").innerHTML = "2023 Juniper Lasky";
+
+
 class NavSelection
 {
     constructor(selectionName, isDropDown, pagelink, dropDownLinks)
@@ -120,6 +123,7 @@ function updateNav()
         */
        //console.log(nav.innerHTML)
 }
+
 /*
 
 */
