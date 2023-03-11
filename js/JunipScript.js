@@ -31,17 +31,7 @@ class dropDownSelection
 }
 NavBar = 
 [
-    new NavSelection("My Projects", true, "", 
-        [
-            new dropDownSelection("All Projects", "projects.html"), 
-            new dropDownSelection("My Videos", "videos.html"), 
-			new dropDownSelection("My Music", "music.html"),
-            //new dropDownSelection("My Drawings", "drawings.html"),
-            new dropDownSelection("Random Chimp Event", "randomchimpevent/index.html"),
-            new dropDownSelection("Class Organizer", "www/index.html")
-        ]),
-    new NavSelection("About Me", false, "about.html", []),
-    new NavSelection("My Socials", false, "socials.html", [])
+    new NavSelection("Back to Site", false, "https://jlasky831.wixsite.com/junipstudios/library", [])
 ]
 //console.log(NavBar);
 
